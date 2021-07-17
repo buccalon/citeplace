@@ -1,30 +1,29 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import { VStack, Heading } from '@chakra-ui/layout';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Mapping Citations</title>
-        <meta name="description" content="Add coordinates to your Zotero library" />
+        <meta name="description" content="Geolocate your bibliography" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-        Mapping Citations
-        </h1>
-      </main>
+      <VStack
+        h="100vh"
+        alignItems="center"
+        justifyContent="center"
+        spacing="4em"
+      >
+        <Heading as="h1" size="4xl">
+          Mapping Citations
+        </Heading>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://bruno.land/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="https://bruno.land/" target="_blank" rel="noopener noreferrer">
           Project by Bruno Buccalon
         </a>
-      </footer>
+      </VStack>
     </div>
-  )
+  );
 }
