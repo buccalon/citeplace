@@ -16,7 +16,7 @@ export default function Home() {
         justifyContent="center"
         spacing="4em"
       >
-        <Heading as="h1" size="4xl">
+        <Heading as="h1" fontSize={['2xl', '4xl', '6xl', '6xl']}>
           Mapping Citations
         </Heading>
 
