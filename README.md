@@ -1,3 +1,3 @@
-## Mapping Citations
+## Cite Place
 
-This project is part of the [Diluvial Houston Initiative](https://diluvialhouston.rice.edu/mapping-citations) at Rice University.
+This project received support from Rice University's [Diluvial Houston Initiative](https://diluvialhouston.rice.edu/mapping-citations).
